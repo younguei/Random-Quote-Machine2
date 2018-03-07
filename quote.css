@@ -30,7 +30,7 @@
 @media (max-width: 500px){
 	.quoteBox{
 		font-size: 6px;
-		margin: 150px auto;
+		margin: 100px auto;
 		width: 80%;
 	}
 	.panel-body{
