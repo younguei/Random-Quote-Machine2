@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Random Quote Machine</title>
+	<link rel="shortcut icon" href="./quote.png">
+	<meta name="viewport" content="width=device-width">
+	<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="./iconfont/iconfont.css">
+	<link rel="stylesheet" type="text/css" href="quote.css">
+	<script type="text/javascript" src="./quote.js"></script>
+</head>
+<body>
+	<div class="navbar navbar-default">
+		<div class="navbar-header">
+			<a href="https://younguei.github.io/Random-Quote-Machine2/" target="_blank" class="navbar-brand">Random Quote Machine</a>
+			<button type="button" class="navbar-toggle" data-target="#myNavbar" data-toggle="collapse">
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+				<span class="icon-bar"></span>
+			</button>
+		</div>
+		<div class="collapse navbar-collapse" id="myNavbar">
+			<ul class="nav navbar-nav navbar-right">
+				<li><a href="https://github.com/" target="_blank"><span class="glyphicon glyphicon-user"></span> Github</a></li>
+				<li><a href="https://codepen.io/" target="_blank"><span class="glyphicon glyphicon-flag"></span> CodePen</a></li>
+			</ul>
+		</div> 
+	</div>
+	<div class="container">
+		<div class="quoteBox">
+			<div class="panel panel-default">
+				<div class="panel-body">
+					<span class="iconfont icon-zhuangshiyongyinhao-copy1 yinhao"></span>
+					<span id="quote"></span>
+					<span class="iconfont icon-zhuangshiyongyinhao-copy yinhao"></span><br>
+					<span class="pull-right">------ <span id="author"></span></span>
+				</div>
+				<div class="panel-footer clearfix">
+					<button type="button" id="shareQQ" class="btn btn-default share"><span class="iconfont icon-tubiao215"></span></button>
+					<button type="button" id="shareWeibo" class="btn btn-default share"><span class="iconfont icon-weibo"></span></button>
+					<button type="button" id="changeQuoteBtn" class="btn btn-default pull-right">New Quote</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

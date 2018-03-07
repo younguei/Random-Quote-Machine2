@@ -1,0 +1,60 @@
+@media (min-width: 500px){
+	.quoteBox{
+		font-size: 20px;
+		margin: 100px auto;
+		width: 60%;
+	}
+	ul.navbar-right li{
+		padding-right: 15px;
+	}
+	.panel-body{
+		padding-top: 20px;
+	}
+	.panel-body #quote{
+		padding: 20px 10px;
+	}
+	.yinhao{
+		font-size: 25px;
+	}
+	#changeQuoteBtn,#shareQQ,#shareWeibo{
+		color: #fff;
+		font-weight: bolder;
+	}
+
+	.quoteBox #quote{
+		font-size: 25px;
+		font-weight: bolder;
+	}
+
+}
+@media (max-width: 500px){
+	.quoteBox{
+		font-size: 6px;
+		margin: 150px auto;
+		width: 80%;
+	}
+	.panel-body{
+		padding: 10px;
+	}
+	.panel-body #quote{
+		padding: 2px 2px;
+	}
+	.yinhao{
+		font-size: 5px;
+	}
+	.iconfont{
+		font-size: 6px;
+	}
+	#changeQuoteBtn,#shareQQ,#shareWeibo{
+		color: #fff;
+		font-size: 6px;
+		height: 31px;
+		font-weight: bolder;
+	}
+
+	.quoteBox #quote{
+		font-size: 5px;
+		font-weight: bolder;
+	}
+
+}
